@@ -19,7 +19,7 @@ add stack.exe to PATH
 
 ---
 
-**Usage:** 
+### **Usage:** 
 #### Direct
 
 ```
