@@ -39,4 +39,4 @@ if args['help']:
     print("\nHere is how to use this bot:\n")
 
     print("1) Simply copy an error message")
-    print("2) Type 'stack run' in your terminal")
+    print("2) Type 'python stack run' in your terminal")
