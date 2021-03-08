@@ -24,8 +24,11 @@ Usage:
 args = docopt(usage)
 
 if args['run']:
-    
-    bot()
+
+    try:
+        bot()
+    except:
+        print(usage)
 
 if args['help']:
 
