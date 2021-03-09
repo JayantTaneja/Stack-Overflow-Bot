@@ -10,7 +10,7 @@ Step 1:
 ```
 pip install pyinstaller
 
-pyinstaller --onefile -w stack.py
+pyinstaller --onefile stack.py
 ```
 
 Step 2:
