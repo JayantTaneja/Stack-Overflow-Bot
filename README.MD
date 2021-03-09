@@ -5,7 +5,7 @@
 ---
 
 **Installation:**
-#### You can either downlowd the executable folder or install manually:
+#### You can either download the executable folder or install manually:
 Step 1:
 ```
 pip install pyinstaller
