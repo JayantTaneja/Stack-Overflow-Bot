@@ -39,3 +39,8 @@ stack run g
 stack help
 
 ```
+
+## Note:
+- Running .py file is faster than the .exe one 
+
+- For running .py file docopt must be installed
