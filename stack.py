@@ -2,10 +2,13 @@ from docopt import docopt
 import webbrowser as wb
 from tkinter import Tk
 
-def bot():
+def bot(args):
     ques=Tk().clipboard_get()
 
-    url="https://stackoverflow.com/search?q={}".format(ques)
+    if args['<g>']:
+        url="https://www.google.com/search?q={}".format(ques)
+    else:
+        url="https://stackoverflow.com/search?q={}".format(ques)
 
     chrome_path = 'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s'
 
@@ -17,7 +20,7 @@ usage = '''
 StackOverFlow Bot
 
 Usage:
-  stack run
+  stack run [<g>]
   stack help
 
 '''
@@ -26,7 +29,7 @@ args = docopt(usage)
 if args['run']:
 
     try:
-        bot()
+        bot(args)
     except:
         print(usage)
 
