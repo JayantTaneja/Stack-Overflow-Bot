@@ -24,7 +24,8 @@ add stack.exe to PATH
 
 ```
 
-python stack.py run  // searches the clipboard text on stackoverflow.com
+python stack.py run    // searches the clipboard text on stackoverflow.com
+python stack.py run g  // searches the clipboard text on google
 python stack.py help
 
 ```
@@ -34,6 +35,7 @@ python stack.py help
 ```
 
 stack run
+stack run g
 stack help
 
 ```
